@@ -42,6 +42,7 @@ aaa = Licence()
 
 lmutil = ""
 # getting data
+# encoding='utf-8' take out becose macOS wont getiing it
 with open('all.tmp', 'r', encoding='utf8') as ofile: #output for parsing
     openfile = ofile.readlines()
     ofile.close()
