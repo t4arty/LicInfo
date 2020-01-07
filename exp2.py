@@ -2,6 +2,7 @@ import json
 import random
 import re
 
+#some useless function
 def rdStr(howmany):
     x = int(howmany)
     chars = ["a","b","c","d","e","1"]
